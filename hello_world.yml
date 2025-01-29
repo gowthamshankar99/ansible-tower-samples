@@ -5,3 +5,6 @@
       debug:
         msg: "Hello World!"
 
+    - name: add a text file
+      ansible.builtin.command: echo "testing" >> /home/ubuntu/text.txt
+
